@@ -1,0 +1,7 @@
+<!--pages/maintab/maintab.wxml-->
+<view class="container">
+  <van-image width="200" height="100" radius="20" src="/pages/maintab/assert/20210221134552.png" />
+  <van-button round type="primary">圆形按钮</van-button>
+
+</view>
+

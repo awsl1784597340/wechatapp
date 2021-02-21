@@ -1,0 +1,14 @@
+{
+  "name": "wechatapp",
+  "version": "0.0.0",
+  "description": "for try",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "2021",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.5.3"
+  }
+}
