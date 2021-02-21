@@ -8,7 +8,21 @@ Page({
   data: {
 
   },
-
+  toFirst(){
+    wx.navigateTo({
+      url: '../first/first'
+    })
+  },
+  toSecond(){
+    wx.navigateTo({
+      url: '../second/second',
+    })
+  },
+  toThird(){
+    wx.navigateTo({
+      url: '../third/third',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

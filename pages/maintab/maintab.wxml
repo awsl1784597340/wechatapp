@@ -1,7 +1,8 @@
 <!--pages/maintab/maintab.wxml-->
 <view class="container">
-  <van-image width="200" height="100" radius="20" src="/pages/maintab/assert/20210221134552.png" />
-  <van-button round type="primary">圆形按钮</van-button>
-
+  <van-image width="300" height="150" src="/pages/maintab/assert/20210221134552.png" />
+  <button type="primary" class="first" bindtap="toFirst">单人音源检测</button>
+  <button type="primary" class="second" bindtap="toSecond">多人音源检测</button>
+  <button type="primary" class="third" bindtap="toThird">梅谱系数检测</button>
 </view>
 

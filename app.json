@@ -2,7 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/maintab/maintab"
+    "pages/maintab/maintab",
+    "pages/first/first",
+    "pages/second/second",
+    "pages/third/third"
   ],
   "window": {
     "backgroundTextStyle": "light",
