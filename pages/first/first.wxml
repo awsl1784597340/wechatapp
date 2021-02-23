@@ -1,2 +1,17 @@
 <!--pages/first/first.wxml-->
-<text>pages/first/first.wxml</text>
+<!-- <van-notice-bar
+  wrapable
+  scrollable="{{ false }}"
+  text="在代码阅读过程中人们说脏话的频率是衡量代码质量的唯一标准。"
+/> -->
+<view class="container">
+  <view class="audio">
+    <text class="info">单 人 音 源 检 测</text>
+    <image src="/pages/first/asserts/audio.png" class="userinfo-avatar" mode="cover" bindtap="chooseFile"></image>
+    <text wx:if="{{!filename}}" class="userinfo">选择本地录音</text>
+    <text wx:else class="userinfo">{{filename}}</text>
+    <text wx:if="{{!filename}}"></text>
+    <van-button wx:else type="primary" bindtap="uploadFile">发送音频进行检测</van-button>
+  </view>
+
+</view>

@@ -1,1 +1,30 @@
 /* pages/first/first.wxss */
+page{background-color:#fa8b3b;}
+.container{
+  padding-top: 5ch;
+}
+
+.audio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.info{
+  padding-top:0ch;
+  padding-bottom: 25ch;
+  font-size: 50rpx;
+  color:#be112e
+}
+
+
+.userinfo{
+  color: #128b94;
+}
